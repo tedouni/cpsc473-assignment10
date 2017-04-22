@@ -4,6 +4,7 @@ var extract = require('./extract');
 var wss = require('./websockets-server');
 var mime = require('mime');
 
+
 var handleError = function(err, res) {
     res.writeHead(404);
     res.end();
